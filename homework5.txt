@@ -1,0 +1,5 @@
+   0 nano script.sh
+   1 chmod 744 script.sh
+   2 ls -la
+   3 mv script.sh /bin
+   4 history >> history.txt

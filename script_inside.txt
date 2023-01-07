@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir /tmp/margarita
+touch /tmp/margarita/newfile.txt
+date >> /tmp/margarita/newfile.txt
+echo "it works!" >> /tmp/margarita/newfile.txt
+cp /tmp/margarita/newfile.txt /opt
